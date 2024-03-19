@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "zwir-svc"
+  annotations:
+    "humanitec.com/orgId": "kubecon-paris-2024"
+    "humanitec.com/appId": "zwir-svc"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
